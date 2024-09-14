@@ -1,0 +1,26 @@
+[
+    {
+      "key": 1,
+      "title": "Yelp Camp",
+      "imageSrc": "Projects/Yelp-Camp.png",
+      "description": "This project is made with Node, Express, MongoDB, Passport, Bootstrap, Cloudinary, Maptiler.",
+      "demo": "https://yelpcamp-m3ss.onrender.com",
+      "source": "https://github.com/MohitSharma66/YelpCamp"
+    },
+    {
+      "key": 2,
+      "title": "Hotel Website",
+      "imageSrc": "Projects/Hotel-Website.png",
+      "description": "This Project is made with React and Firebase and images are sourced from Unsplash API.",
+      "demo": "https://candid-babka-0a9563.netlify.app",
+      "source": "https://github.com/MohitSharma66/Hotel-Website"
+    },
+    {
+      "key": 3,
+      "title": "Quiz Game",
+      "imageSrc": "Projects/Quiz-React.png",
+      "description": "This project is just a demo quiz made with React, questions are sourced from an Quiz API.",
+      "demo": "https://www.example.com",
+      "source": "https://github.com/MohitSharma66/Quiz-Game"
+    }
+  ]

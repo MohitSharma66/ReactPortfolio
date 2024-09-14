@@ -1,0 +1,72 @@
+.load {
+    position: fixed; /* Ensure the loader stays fixed on the screen */
+    top: 0;
+    left: 0;
+    z-index: 9999; /* Bring it to the top */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+@keyframes myAnim {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.6);
+    }
+}
+
+@keyframes Entry {
+    0% {
+        opacity: 0;
+        transform: scale(0.6);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.load span {
+    text-align: center;
+    animation: myAnim 2s ease 3s 1 normal forwards;
+    font-size: 3.5rem;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    WebkitTextStroke: 1px white;
+    WebkitTextFillColor: transparent;
+    letter-spacing: 0.3rem;
+}
+
+.load img {
+    height: 200px;
+    width: 200px;
+}
+
+.load .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Changed to relative to stay within the loader container */
+    z-index: 1500;
+    animation: Entry 2s ease 0s 1 normal forwards;
+    flex-direction: column;
+}
+
+@media (max-width: 630px) {
+    .load span {
+        font-size: 2.5rem;
+    }
+
+    .load img {
+        height: 150px;
+        width: 150px;
+    }
+}

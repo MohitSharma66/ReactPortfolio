@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "role": "Software Engineer Intern",
+      "organisation": "Electrum IT Solutions Pvt. Ltd.",
+      "startDate": "May, 2024",
+      "endDate": "July, 2024",
+      "location": "Vadodara, Gujarat",
+      "experiences": [
+        "Worked on a Hotel Management System project."
+      ],
+      "imageSrc": "Company/Electrum.jpg"
+    }
+  ]
